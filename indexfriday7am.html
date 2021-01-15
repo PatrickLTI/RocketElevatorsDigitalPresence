@@ -51,7 +51,8 @@
 		data-background="assets/images/_smarty/boxed_background/1.jpg"
 	-->
 	<body class="smoothscroll enable-animation">
-
+		<!--link for homepage-->
+		<div id="top"></div>
 
 		<!-- wrapper -->
 		<div id="wrapper">
@@ -116,27 +117,32 @@
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li class="active"><!-- HOME -->
 										<a href="#top">
-											HOME
+										<head id ="home-nav">HOME</head>
 										</a>
 									</li>
 									<li><!-- SERVICES -->
 										<a href="#services">
-											SERVICES
+										<head id="services-nav"> SERVICES</head>
+										</a>
+                                    </li>
+                                    <li><!-- PORTFOLIO -->
+										<a href="#portfolio">
+										<head id="portfolio-nav"> PORTFOLIO</head>
 										</a>
 									</li>
 									<li><!-- NEWS -->
 										<a href="#news">
-											NEWS
+										<head id="news-nav"> NEWS</head>
 										</a>
 									</li>
 									<li><!-- CLIENTS -->
-										<a href="#customers">
-											CUSTOMERS
+										<a href="#clients">
+										<head id="clients-nav">CLIENTS</head>
 										</a>
 									</li>
 									<li><!-- CONTACT -->
 										<a href="#contact">
-											CONTACT
+										<head id="contact-nav">CONTACT</head>
 										</a>
 									</li>
 								</ul>
@@ -150,10 +156,10 @@
 
 			</div>
 
-
+			
 
 			<!-- REVOLUTION SLIDER -->
-			<div class="slider fullwidthbanner-container roundedcorners">
+			
 				<!--
 					Navigation Styles:
 					
@@ -182,15 +188,16 @@
 						data-height="750"
 						data-height="800"
 				-->
-				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview2">
+                <div class="slider fullwidthbanner-container roundedcorners">
+                <div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview2">
 					<ul class="hide">
+
 						<!-- SLIDE  -->
 						<li data-transition="parallaxtotop" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" data-title="Quote Info">
 							<!-- MAIN IMAGE -->
 							<img src="Rocket/AdobeStock_146216308.jpeg" alt="cover image"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
 							<div class="overlay dark-4"><!-- dark overlay [0 to 9 opacity] --></div>
-
 							<div class="tp-caption font-roboto skewfromleft tp-resizeme"
 								data-x="50"
 								data-y="100" 
@@ -249,7 +256,7 @@
 								data-endelementdelay="0.1"
 								data-endspeed="500"
 								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
-									<a class="btn btn-secondary btn-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\index-onepage-construction-quote.html">GET A QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
+									<a class="btn btn-secondary btn-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\quotepage.html">GET A QUOTE &nbsp; <i class="fa fa-angle-right"></i></a>
 							</div>
 						</li>
 						<!-- SLIDE  -->
@@ -314,7 +321,7 @@
 								data-endspeed="300"
 
 								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
-									<a class="btn btn-primary btn-bg-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\index-onepage-construction-residential.html">RESIDENTIAL SERVICES &nbsp; <i class="fa fa-angle-right"></i></a>
+									<a class="btn btn-primary btn-bg-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\residential.html">RESIDENTIAL SERVICES &nbsp; <i class="fa fa-angle-right"></i></a>
 							</div>
 						</li>
 						<!-- SLIDE  -->
@@ -368,7 +375,7 @@
 								data-endelementdelay="0.1"
 								data-endspeed="500"
 								style="z-index: 4; max-width: auto;">
-									<a class="btn btn-primary btn-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\index-onepage-construction-corporate.html">CORPORATE SERVICES &nbsp; <i class="fa fa-angle-right"></i></a>
+									<a class="btn btn-primary btn-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\commercial.html">CORPORATE SERVICES &nbsp; <i class="fa fa-angle-right"></i></a>
 							</div>
 
 							<div class="tp-caption sfb tp-resizeme"
@@ -397,13 +404,10 @@
 
 
 		
-
-
 			
 			<!-- Services -->
 			<section id="services">
 				<div class="container">
-
 					<div class="row">
 						<div class="col-sm-4">
 							<img class="img-fluid" src="Rocket/AdobeStock_162479912.jpeg" alt="img" />
@@ -412,20 +416,19 @@
 							<a href="#awards" class="btn btn-default">Portfolio Awards</a>
 						</div>
 
-						<div id="services"class="col-sm-4">
+						<div class="col-sm-4">
 							<img class="img-fluid" src="Rocket/AdobeStock_72034307.jpeg" alt="img" />
 							<h3 class="mt-10">Residential Services</h3>
 							<p>With a growing market, the residential share will see more of Rocket Elevators as we seek to statisfy countless new customers!</p>
-							<a href="C:\Users\Patrick\Desktop\Projectinprogress\index-onepage-construction-residential.html" class="btn btn-default">Residential Services</a>
+							<a href="residential.html" class="btn btn-default">Residential Services</a>
 						</div>
 
 						<div class="col-sm-4">
 							<img class="img-fluid" src="Rocket/AdobeStock_170843598.jpeg" alt="img" />
 							<h3 class="mt-10">Corporate Services</h3>
 							<p>Rocket Elevators has demonstrated skills in developping safe and reliable commercial elevators.</p>
-							<a href="C:\Users\Patrick\Desktop\Projectinprogress\index-onepage-construction-corporate.html" class="btn btn-default">Corporate Services</a>
+							<a href="commercial.html" class="btn btn-default">Corporate Services</a>
 						</div>
-
 					</div>
 
 				</div>
@@ -434,29 +437,25 @@
 
 			
 
-
+			
 			<!-- Parallax -->
 			<section class="parallax parallax-1" style="background-image: url('Rocket/AdobeStock_1200x800.jpg');">
 				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
-
-				<div class="container">
-
+			    <div class="container">
 					<div class="text-center">
-						<h2 class="fs-40 fw-300">Founded Since 1976</h2>
-						<a class="btn btn-primary btn-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\index-onepage-construction-quote.html">GET A QUOTE <i class="fa fa-angle-right"></i></a> 
+						<h2 class="fs-40 fw-300">In Business since 1976</h2>
+						<a class="btn btn-primary btn-lg" href="C:\Users\Patrick\Desktop\Projectinprogress\quotepage.html">GET A QUOTE <i class="fa fa-angle-right"></i></a> 
 						&nbsp; OR &nbsp; 
 						<a class="btn btn-primary btn-lg" href="#contact">CONTACT US<i class="fa fa-angle-right"></i></a>
 					</div>
-
 				</div>
 			</section>
 			<!-- /Parallax -->
 
 
 
-
 			<!-- PORTFOLIO -->
-			<section id="work" >
+			<section id="portfolio">
 				<div class="container">
 
 					<div class="heading-title heading-dotted text-center">
@@ -465,7 +464,7 @@
 
 					<div class="text-center">
 						<ul class="nav nav-pills mix-filter mb-60">
-							<li data-filter="all" class="filter active"><a href="#">All</a></li>
+							<li data-filter="all" class="filter active"><a href="#">Awards</a></li>
 							<li data-filter="residential" class="filter"><a href="#">Residential</a></li>
 							<li data-filter="corporate" class="filter"><a href="#">Corporate</a></li>
 							<li data-filter="innovation" class="filter"><a href="#">Innovation</a></li>
@@ -474,7 +473,7 @@
 
 				</div>
 
-				<div id="portfolio" class="portfolio-nogutter">
+				<div class="portfolio-nogutter">
 
 						<div class="row mix-grid">
 
@@ -816,13 +815,13 @@
 
 
 			<!-- Testimonials -->
-			<section class="section-xs dark">
+			<section id="team" class="section-xs dark">
 				<div class="container">
 
 					<div class="owl-carousel text-center owl-testimonial m-0" data-plugin-options='{"singleItem": true, "autoPlay": 3500, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
-						<div class="testimonial">
+						<div id="CEO" class="testimonial">
 							<figure>
-								<img class="rounded" src="demo_files/images/portfolioImages/StaffImages/Mathieu1.jpg" alt="" />
+								<img class="rounded" src="demo_files/images/portfolioImages/StaffImages/CEO.jpg" alt="" />
 							</figure>
 							<div class="testimonial-content p-0">
 								<p class="lead">CEO of Rocket Elevators.</p>
@@ -832,9 +831,9 @@
 								</cite>
 							</div>
 						</div>
-						<div class="testimonial">
+						<div id="employee" class="testimonial">
 							<figure>
-								<img class="rounded" src="demo_files/images/portfolioImages/StaffImages/Patrick2.jpg" alt="" />
+								<img class="rounded" src="demo_files/images/portfolioImages/StaffImages/employee-of-the-month.jpg" alt="" />
 							</figure>
 							<div class="testimonial-content p-0">
 								<p class="lead">Employee of the month.</p>
@@ -845,13 +844,9 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</section>
 			<!-- /Testimonials -->
-
-
-
 
 
 			<!-- News -->
@@ -972,13 +967,11 @@
 			<!-- /News -->
 
 			<!-- Clients -->
-			<section id="customers" class="alternate">
+			<section id="clients" class="alternate">
 				<div class="container">
-
 					<div class="heading-title heading-dotted text-center">
-						<h2>Our Customers</h2>
+						<h2>Our Clients</h2>
 					</div>
-
 					<ul class="row clients-dotted list-inline">
 						<li class="col-md-3 col-sm-3 col-6">
 							<a href="#">
@@ -1041,33 +1034,24 @@
 							</a>
 						</li>
 					</ul>
-
 				</div>
 			</section>
 			<!-- /Clients -->
 
 
 
-
 			<!-- CONTACT -->
 			<section id="contact">
 				<div class="container">
-
 					<header class="text-center mb-60">
 						<h2>Contact Us</h2>
 						<p class="lead font-lato">We look forward to hearing from you!</p>
 						<hr />
 					</header>
-
-
 					<div class="row">
-
 						<!-- FORM -->
 						<div class="col-md-8 col-sm-8">
-
-							<h3>Drop us a line or just say <strong><em>Hello!</em></strong></h3>
-
-							
+							<h3>Drop us a line or just say <strong><em>Hello!</em></strong></h3>	
 							<!--
 								MESSAGES
 								
@@ -1116,68 +1100,59 @@
 							<form action="php/contact.php" method="post" enctype="multipart/form-data">
 								<fieldset>
 									<input type="hidden" name="action" value="contact_send" />
-
 									<div class="row">
 											<div class="col-md-4">
-												<label for="contact:name">Full Name *</label>
+												<label for="name">Full Name</label>
 												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
 											</div>
 											<div class="col-md-4">
-												<label for="contact:email">E-mail Address *</label>
+												<label for="email">E-mail Address</label>
 												<input required type="email" value="" class="form-control" name="contact[email][required]" id="contact:email">
 											</div>
 											<div class="col-md-4">
-												<label for="contact:phone">Phone</label>
+												<label for="phone">Phone Number</label>
 												<input type="text" value="" class="form-control" name="contact[phone]" id="contact:phone">
 											</div>
 									</div>
 									<div class="row">
-											<div class="col-md-8">
-												<label for="contact:subject">Subject *</label>
-												<input required type="text" value="" class="form-control" name="contact[subject][required]" id="contact:subject">
-											</div>
 											<div class="col-md-4">
-												<label for="contact_department">Department</label>
-												<select class="form-control pointer" name="contact[department]">
-													<option value="">--- Select ---</option>
-													<option value="Marketing">Marketing</option>
-													<option value="Webdesign">Webdesign</option>
-													<option value="Architecture">Architecture</option>
-												</select>
-											</div>
-											<div class="col-md-4">
-												<label for="contact:name">Project Name</label>
+												<label for="company_name">Business Name</label>
 												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
 											</div>
 											<div class="col-md-4">
-												<label for="contact:name">Business Name</label>
+												<label for="project_name">Project</label>
 												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
-											</div>
-											
+                                            </div>        
 									</div>
 									<div class="row">
-										<div class="col-md-4">
-											<label for="contact:name">Project Description </label>
-											<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
-										</div>
+                                        <div class="col-md-4">
+                                            <label for="project_description">Project Desc.</label>
+                                            <input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="department">Department</label>
+                                            <select class="form-control pointer" name="contact[department]">
+                                                <option value="">--- Select ---</option>
+                                                <option value="Marketing">Marketing</option>
+                                                <option value="Webdesign">Webdesign</option>
+                                                <option value="Architecture">Architecture</option>
+                                            </select>
+                                            </div>
 											<div class="col-md-12">
-												<label for="contact:message">Message *</label>
+												<label for="message">Message *</label>
 												<textarea required maxlength="10000" rows="8" class="form-control" name="contact[message]" id="contact:message"></textarea>
 											</div>
-									</div>
+									    </div>
 									<div class="row">
 											<div class="col-md-12">
-												<label for="contact:attachment">File Attachment</label>
+												<label for="attachment">File Attachment</label>
 
 												<!-- custom file upload -->
 												<input class="custom-file-upload" type="file" id="file" name="contact[attachment]" id="contact:attachment" data-btn-text="Select a File" />
 												<small class="text-muted block">Max file size: 10Mb (zip/pdf/jpg/png)</small>
-
 											</div>
 									</div>
-
 								</fieldset>
-
 								<div class="row">
 									<div class="col-md-12">
 										<button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> SEND MESSAGE</button>
@@ -1214,8 +1189,8 @@
 							<hr />
 
 							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 4468 Wellington, H4G 1W5, Quebec, Canada</span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-555-1234">581-701-0303</a></span>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 4468 Wellington St, Suite 204, Verdun, Quebec, H4G 1W5</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:1800-555-1234">(418)-555-1234</a></span>
 								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:mail@yourdomain.com">info@codeboxx.biz</a></span>
 							</p>
 
@@ -1227,8 +1202,6 @@
 				</div>
 			</section>
 			<!-- /CONTACT -->
-
-
 
 
 			<!-- FOOTER -->
@@ -1245,9 +1218,8 @@
 
 							<!-- Small Description -->
 							<p>
-								First in class in design and implemention of residential and commercial elevators. With over 40 years of experience, through our CEO vision, we look forward to servicing you!
-							</p>
-							<h2>(581) 701-0303</h2>
+								We have the conviction that we create the most innovative and reliable products on the market. Contact us today for any questions you might have.							</p>
+							<h2>(418) 555-1234</h2>
 						</div>
 						<!-- /col #1 -->
 
@@ -1314,8 +1286,7 @@
 
 		<script src="assets/js/scripts.js"></script>
 		
-		<!-- STYLESWITCHER - REMOVE -->
-		<script async src="demo_files/styleswitcher/styleswitcher.js"></script>
+	
 
 		<!-- REVOLUTION SLIDER -->
 		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
